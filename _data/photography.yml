@@ -1,0 +1,181 @@
+# Number of photos shown on each photography page.
+photos_per_page: 12
+
+# Add new albums at the top so the latest work appears first.
+# Each album has one shared title and any number of photos.
+# Copy this example and remove the leading `#` characters:
+#
+# albums:
+#   - title: Streets of Shanghai
+#     date: 2026-07-15
+#     location: Shanghai, China
+#     description: An optional introduction shared by this batch.
+#     photos:
+#       - image: /assets/img/photography/shanghai-01.jpg
+#         alt: A concise description of the first photo
+#       - image: /assets/img/photography/shanghai-02.jpg
+#         alt: A concise description of the second photo
+#         caption: Optional caption for this photo.
+
+albums:
+  - title: Yuquan Campus
+    date: 2026
+    location: Hangzhou, China
+    description: Started capturing the beauty of the world through my camera. 📷
+    photos:
+
+      - image: /assets/img/photography/Hangzhou/IMG_4515.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4539.JPEG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4541.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4559.JPEG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4596.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4951.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4927.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_6771.JPEG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4535.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4467.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4940.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4481.JPG
+
+      - image: /assets/img/photography/Hangzhou/IMG_4581.JPEG
+      
+      
+
+  - title: ICRA 2026
+    date: 2026-06
+    location: Vienna, Austria
+    description: An artistic city.
+    photos:
+      - image: /assets/img/photography/Austria/IMG_5281.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5283.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5338.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5359.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5371.JPG
+
+      - image: /assets/img/photography/Austria/IMG_9786.JPEG
+
+      - image: /assets/img/photography/Austria/IMG_0269.JPEG
+
+      - image: /assets/img/photography/Austria/IMG_9746.JPEG
+        caption: The Chef, Pere Paul
+
+      - image: /assets/img/photography/Austria/IMG_9733.JPEG
+        caption: Napoleon
+
+      - image: /assets/img/photography/Austria/IMG_9672.JPEG
+        caption: The blue hour in Europe, captured on the way back from Designer Outlet Parndorf.
+
+      - image: /assets/img/photography/Austria/IMG_5328.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5374.JPG
+        caption: The Blue Danube
+
+
+  - title: ICRA 2026
+    date: 2026-06
+    location: Hallstatt, Austria
+    description: A charming little town.
+    photos:
+      - image: /assets/img/photography/Austria/IMG_0130.JPEG
+
+      - image: /assets/img/photography/Austria/IMG_5435.JPEG
+
+      - image: /assets/img/photography/Austria/IMG_5417.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5466.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5467.JPG
+
+      - image: /assets/img/photography/Austria/IMG_5470.JPEG
+
+  - title: Zijingang Campus
+    date: 2026
+    location: Hangzhou, China
+    description: As brilliant as the stars. ⭐
+    photos:
+      - image: /assets/img/photography/Hangzhou/IMG_7700.JPEG
+
+
+
+  - title: Disneyland
+    date: 2025-12
+    location: Shanghai, China
+    description: A magical day with Zimeng at Disneyland.
+    photos:
+      - image: /assets/img/photography/Shanghai/IMG_7278.JPEG
+      - image: /assets/img/photography/Shanghai/IMG_7367.JPEG
+      - image: /assets/img/photography/Shanghai/IMG_7368.JPEG
+      - image: /assets/img/photography/Shanghai/IMG_7373.JPEG
+
+  - title: Hong Kong
+    date: 2024-04
+    location: Hong Kong, China
+    description: Just an ordinary day.
+    photos:
+      - image: /assets/img/photography/HongKong/IMG_6760.JPEG
+
+      - image: /assets/img/photography/HongKong/IMG_6795.JPEG
+
+  - title: IROS 2024
+    date: 2024-10
+    location: Abu Dhabi, UAE
+    description: An unforgettable journey through the underwater world, Ferrari World 🏎️, The Louvre Abu Dhabi and the Sheikh Zayed Grand Mosque ---- far beyond anything I had imagined before coming here.
+    photos:
+      - image: /assets/img/photography/UAE/IMG_0065.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_0089.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_0112.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_0118.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_9919.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_0303.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_0355.JPEG
+        caption: Van Gogh's The Bedroom
+
+      - image: /assets/img/photography/UAE/IMG_0357.JPEG
+        caption: Van Gogh's The Siesta
+
+      - image: /assets/img/photography/UAE/IMG_9651.JPEG
+
+      - image: /assets/img/photography/UAE/IMG_9718.JPEG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

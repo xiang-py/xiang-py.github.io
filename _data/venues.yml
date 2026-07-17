@@ -5,3 +5,33 @@
 "IEEE Trans. Robot.":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860
   color: "#B509AC"
+
+
+"IEEE T-ASE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856
+  color: "#B509AC"
+
+
+"CBS":
+  url: https://spj.science.org/journal/cbsystems
+  color: "#B509AC"
+
+
+"IROS 2024":
+  url: https://ieeexplore.ieee.org/xpl/conhome/10801246/proceeding
+  color: "#B509AC"
+
+"ICRA 2026":
+  url: []
+  color: "#B509AC"
+
+"ICUS":
+  url: []
+  color: "#B509AC"
+
+"Under Review":
+  color: "#D97706"
+
+
+"Nat. Commun.":
+  color: "#D97706"

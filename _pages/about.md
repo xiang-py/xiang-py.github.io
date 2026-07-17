@@ -33,6 +33,44 @@ latest_posts:
       width: 22%;
     }
   }
+
+  .social .contact-icons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .visitor-map-widget {
+    display: inline-flex;
+    flex: 0 0 150px;
+    font-size: initial;
+    height: 75px;
+    margin: 0 0 0.75rem 0.85rem;
+    max-width: 150px;
+    overflow: hidden;
+  }
+
+  .visitor-map-widget > *,
+  .visitor-map-widget iframe,
+  .visitor-map-widget img,
+  .visitor-map-widget canvas,
+  .visitor-map-widget svg {
+    border: 0;
+    display: block;
+    height: 75px !important;
+    margin: 0 !important;
+    max-height: 75px !important;
+    max-width: 150px !important;
+    width: 150px !important;
+  }
+
+  @media (max-width: 575px) {
+    .visitor-map-widget {
+      margin-left: 0.5rem;
+    }
+  }
+
 </style>
 
 I am a Ph.D. candidate in Robotics at Zhejiang University, advised by [Prof. Haojian Lu](https://scholar.google.com/citations?user=dNAbVgIAAAAJ&hl). My research focuses on magnetic sensing and localization, medical robotics, and intelligent robotic systems.
@@ -41,7 +79,7 @@ I am particularly interested in developing flexible, reconfigurable, and uncerta
 
 My long-term goal is to develop intelligent robotic systems that are clinically meaningful.
 
-Feel free to reach out for research collaboration and intellectual exchange! :smiley:
+Feel free to reach out for research collaboration and intellectual exchange! 😀
 
 
 
@@ -54,6 +92,7 @@ Feel free to reach out for research collaboration and intellectual exchange! :sm
     const counterPath = isLocalPreview ? "xiang-py.github.io-local-preview" : "xiang-py.github.io";
 
     const counterLink = document.createElement("a");
+    counterLink.id = "visitor-counter";
     counterLink.href = `https://hits.sh/${counterPath}/`;
     counterLink.title = "Website visitors";
     counterLink.setAttribute("aria-label", "View website visit statistics");
@@ -66,5 +105,19 @@ Feel free to reach out for research collaboration and intellectual exchange! :sm
 
     counterLink.appendChild(counterBadge);
     socialIcons.appendChild(counterLink);
+  });
+</script>
+
+<div id="visitor-map-widget" class="visitor-map-widget" aria-label="Visitor map">
+<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=mi4MQUobU2_DwyEtmpTz2TMm2Bao9ScIUp8uXBc5jZ4"></script>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const socialIcons = document.querySelector(".social .contact-icons");
+    const visitorMap = document.getElementById("visitor-map-widget");
+    const visitorCounter = document.getElementById("visitor-counter");
+
+    if (socialIcons && visitorMap) socialIcons.insertBefore(visitorMap, visitorCounter);
   });
 </script>
