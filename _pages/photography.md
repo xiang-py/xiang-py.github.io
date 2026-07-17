@@ -140,8 +140,17 @@ nav_order: 4
 <div class="photo-grid">
 {% for photo in album.photos %}
 <figure data-photo-index="{{ photo_index }}"{% if photo_index >= photos_per_page %} hidden{% endif %}>
+{% assign thumb_800 = photo.image | replace_first: '/assets/img/photography/', '/assets/img/photography/thumbnails/800/' | replace: '.JPEG', '.webp' | replace: '.JPG', '.webp' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' %}
+{% assign thumb_1400 = photo.image | replace_first: '/assets/img/photography/', '/assets/img/photography/thumbnails/1400/' | replace: '.JPEG', '.webp' | replace: '.JPG', '.webp' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' %}
 <a href="{{ photo.image | relative_url }}" target="_blank" rel="noopener">
-<img src="{{ photo.image | relative_url }}" alt="{{ photo.alt | default: album.title }}" loading="lazy">
+<img
+  src="{{ thumb_800 | relative_url }}"
+  srcset="{{ thumb_800 | relative_url }} 800w, {{ thumb_1400 | relative_url }} 1400w"
+  sizes="(max-width: 575px) 100vw, (max-width: 991px) 50vw, 33vw"
+  alt="{{ photo.alt | default: album.title }}"
+  loading="lazy"
+  decoding="async"
+>
 </a>
 {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
 </figure>

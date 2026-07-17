@@ -15,7 +15,7 @@ The main content is maintained in the following files:
 - Link images: `assets/img/related/`
 - Social profiles: `_data/socials.yml`
 
-Publication preview images belong in `assets/img/publication_preview/`, and publication PDFs belong in `assets/pdf/Publications/`.
+Publication preview images belong in `assets/img/publication_preview/`, and publication PDFs belong in `assets/pdf/Publications/`. After adding or replacing a preview image, run `powershell -ExecutionPolicy Bypass -File scripts/generate-publication-thumbnails.ps1`; detailed instructions are in `assets/img/publication_preview/README.md`.
 
 ## Local Preview
 
